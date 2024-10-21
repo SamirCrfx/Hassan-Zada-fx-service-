@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan Zada - Forex Professional</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+        }
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center">
+        <h1>Hassan Zada - Forex Professional</h1>
+        <nav>
+            <a href="#training">آموزش‌ها</a>
+            <a href="#signals">سیگنال‌ها</a>
+            <a href="#chat">چت کاربران</a>
+            <a href="#support">پشتیبانی</a>
+        </nav>
+    </header>
+    <div class="content container">
+        <section id="training">
+            <h2>آموزش‌ها</h2>
+            <p>در اینجا می‌توانید به آموزش‌های مرتبط با فارکس دسترسی داشته باشید.</p>
+        </section>
+        <section id="signals">
+            <h2>سیگنال‌ها</h2>
+            <p>سیگنال‌های روزانه فارکس در اینجا ارائه می‌شوند.</p>
+        </section>
+        <section id="support">
+            <h2>پشتیبانی</h2>
+            <form id="support-form">
+                <label for="question">سوال خود را وارد کنید:</label>
+                <textarea id="question" required></textarea>
+                <button type="submit">ارسال سوال</button>
+            </form>
+        </section>
+    </div>
+    <footer class="text-center">
+        <p>کلیه حقوق محفوظ است.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
